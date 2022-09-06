@@ -1,0 +1,17 @@
+@import 'style/fonts';
+$color: tomato;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $color;
+  font-family: Montserrat, sans-serif;
+}
